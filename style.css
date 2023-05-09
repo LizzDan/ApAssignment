@@ -1,12 +1,22 @@
-.btn{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 5px;
-    color: #333333;
-}
-
-.btn:hover {
-    background-color: blue;
-
-}
-
+:root{
+    --primary-color:#a36733;
+    --secondary-color: #747484;
+   
+  }
+  body{
+    background-color: #377383;
+  }
+  
+  #moon{
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    float: right;  
+  }
+  .dark-theme{
+    background-color: #774445;
+    color: hwb(0 100% 0%);
+    /*--default-transition:.3s ease-in-out, transform .3s ease-in-out;*/
+   
+   
+  }
